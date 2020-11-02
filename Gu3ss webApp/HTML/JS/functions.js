@@ -53,23 +53,27 @@ function submit(num1, num2, num3) {
     if (firstNumber === 0) {
         alert("Starting number cannot start at 0");
         currentGuessCount--;
+        reset();
         return;
     }
     else if ((firstNumber < 1 || firstNumber > 9) || (secondNumber < 0 || secondNumber > 9) || (thirdNumber < 0 || thirdNumber > 9)) {
         alert("Input must be between 0-9");
         currentGuessCount--;
+        reset();
         return;
     }
     //checks for input which is NaN
     if (Number.isNaN(firstNumber) || Number.isNaN(secondNumber) || Number.isNaN(thirdNumber)) {
         alert("Please input a number");
         currentGuessCount--;
+        reset();
         return;
     }
     //checks for repeating input
     if ((firstNumber === secondNumber || firstNumber === thirdNumber) || (secondNumber === firstNumber || secondNumber === thirdNumber)) {
         alert("Cannot have repeating numbers");
         currentGuessCount--;
+        reset();
         return;
     }
 
@@ -81,10 +85,14 @@ function submit(num1, num2, num3) {
 
     //document.getElementById("output").innerHTML = output;
 
-    A = 0;
-    B = 0;
+    reset();
 
     return false;
+}
+
+function reset() {
+    A = 0;
+    B = 0;
 }
 
 //the player wins and ask if they want to play again
