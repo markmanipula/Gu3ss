@@ -1,11 +1,33 @@
+.bodyBackground{
+    background: rgba(13,55,117,1);
+    opacity: 1;
+    overflow: hidden;
+    height: 100%;
+}
+
 h1{
     text-align: center;
     font-size: 100;
+    position: relative;
+    top: -8%;
 } 
 
 #container{
     display:table;
     margin: 0 auto;
+}
+
+.titleStyle{
+    width: 766px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 130px;
+    left: 337px;
+    font-family: Joti One;
+    font-weight: Regular;
+    font-size: 55px;
+    opacity: 1;
+    text-align: center;
 }
 
 #thisOutput{
@@ -15,11 +37,111 @@ overflow:scroll;
 overflow-x:hidden;
 
 }
-input{
-    font-size: 100;
+
+#number1{
+    width: 156px;
+    height: 148px;
+    background: rgba(246,246,246,1);
+    opacity: 1;
+    position: absolute;
+    top: 220px;
+    left: 441px;
+    border: 3px solid rgba(0,0,0,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+}
+#number2{
+    width: 156px;
+    height: 148px;
+    background: rgba(246,246,246,1);
+    opacity: 1;
+    position: absolute;
+    top: 220px;
+    left: 635px;
+    border: 3px solid rgba(0,0,0,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+}
+#number3{
+    width: 156px;
+    height: 148px;
+    background: rgba(246,246,246,1);
+    opacity: 1;
+    position: absolute;
+    top: 220px;
+    left: 830px;
+    border: 3px solid rgba(0,0,0,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
 }
 
+#thisOutput{
+    color:rgba(255, 255, 255, 1);
+	opacity:1;
+    height:150px;
+    width:300px;
+	font-family:Joti One;
+	text-align:center;
+	font-size:30px;
+    letter-spacing:0;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+#submit{
+    width: 174px;
+    height: 37px;
+    background: url("../images/v1_21.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 9px 0px;
+    margin: 1px;
+    opacity: 1;
+    position: absolute;
+    top: 580px;
+    left: 534px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+
+#giveUp{
+    width: 174px;
+    height: 37px;
+    background: rgba(242,129,35,1);
+    padding: 9px 0px;
+    margin: 1px;
+    opacity: 1;
+    position: absolute;
+    top: 580px;
+    left: 720px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
 
 button{
-    font-size: 50;
+    width: 54px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    font-family: Joti One;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
 }

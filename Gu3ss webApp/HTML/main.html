@@ -1,21 +1,23 @@
 <link href="CSS/style.css" rel="stylesheet">
 
-<h1>Gu3ss</h1>
+<div class="bodyBackground">
+    <h1>Gu3ss</h1>
 
-<div id="container">
+    <div id="container">
 
-    <div class="body">
-        <div>
-            <label for="guessInput">Please enter your Gu3ss:</label>
+        <div class="body">
+            <div>
+                <label for="guessInput" class="titleStyle">Enter your Guess here:</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="#" id="number1" min="1" max="9">
+                <input type="number" placeholder="#" id="number2" min="0" max="9">
+                <input type="number" placeholder="#" id="number3" min="0" max="9">
+            </div>
         </div>
 
-        <div class="inputBox">
-            <input type="number" placeholder="#" id="number1" min="1" max="9">
-            <input type="number" placeholder="#" id="number2" min="0" max="9">
-            <input type="number" placeholder="#" id="number3" min="0" max="9">
-        </div>
-
-        <div>
+        <div class="lower">
             <div id="thisOutput">
                 This is your output
             </div>
@@ -29,5 +31,7 @@
             </div>
         </div>
     </div>
+</div>
 
-    <script src="JS/functions.js"></script>
+
+<script src="JS/functions.js"></script>
