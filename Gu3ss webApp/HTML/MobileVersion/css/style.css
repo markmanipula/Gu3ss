@@ -2,14 +2,15 @@
     background: rgba(13,55,117,1);
     opacity: 1;
     overflow: hidden;
-    height: 100%;
+    height: 133%;
+    width: 133%;
 }
 
 h1{
     font-size: 100;
     position: absolute;
-    left: 40%;
-    top: -8%;
+    left: 55%;
+
 } 
 
 .titleStyle{
@@ -33,13 +34,13 @@ overflow-x:hidden;
 }
 
 #number1{
-    width: 156px;
-    height: 148px;
+    width: 30%;
+    height: 15%;
     background: rgba(246,246,246,1);
     opacity: 1;
     position: absolute;
-    top: 220px;
-    left: 441px;
+    top: 30%;
+    left: 10%;
     border: 3px solid rgba(0,0,0,1);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -49,13 +50,13 @@ overflow-x:hidden;
     font-size:120px;
 }
 #number2{
-    width: 156px;
-    height: 148px;
+    width: 30%;
+    height: 15%;
     background: rgba(246,246,246,1);
     opacity: 1;
     position: absolute;
-    top: 220px;
-    left: 635px;
+    top: 30%;
+    left: 50%;
     border: 3px solid rgba(0,0,0,1);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -65,13 +66,13 @@ overflow-x:hidden;
     font-size:120px;
 }
 #number3{
-    width: 156px;
-    height: 148px;
+    width: 30%;
+    height: 15%;
     background: rgba(246,246,246,1);
     opacity: 1;
     position: absolute;
-    top: 220px;
-    left: 830px;
+    top: 30%;
+    left: 90%;
     border: 3px solid rgba(0,0,0,1);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;

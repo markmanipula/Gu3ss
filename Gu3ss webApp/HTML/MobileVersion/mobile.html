@@ -1,0 +1,37 @@
+<link href="CSS/style.css" rel="stylesheet">
+
+<div class="bodyBackground">
+    <h1>Gu3ss</h1>
+
+    <div id="container">
+
+        <div class="body">
+            <div>
+                <label for="guessInput" class="titleStyle">Enter your Guess here:</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="#" id="number1" min="1" max="9">
+                <input type="number" placeholder="#" id="number2" min="0" max="9">
+                <input type="number" placeholder="#" id="number3" min="0" max="9">
+            </div>
+        </div>
+
+        <div class="lower">
+            <div id="thisOutput">
+                This is your output
+            </div>
+            <div id="counter">
+                Current guess count:
+            </div>
+
+            <div>
+                <button type="button" id="submit" onClick="submit(); guessCounter()">Submit</button>
+                <button type="button" id="giveUp" onClick="giveUp()">Give up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="JS/functions.js"></script>
