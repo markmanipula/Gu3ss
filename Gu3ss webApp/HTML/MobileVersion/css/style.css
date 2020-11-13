@@ -7,9 +7,9 @@
 }
 
 h1{
-    font-size: 100;
+    font-size: 250px;
     position: absolute;
-    left: 55%;
+    left: 35%;
 
 } 
 
@@ -17,11 +17,11 @@ h1{
     width: 100%;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 15%;
+    top: 22%;
     left: 32%;
     font-family: Joti One;
     font-weight: Regular;
-    font-size: 55px;
+    font-size: 75px;
     opacity: 1;
 }
 
@@ -30,7 +30,6 @@ border: solid;
 height:120px;
 overflow:scroll;
 overflow-x:hidden;
-
 }
 
 #number1{
@@ -84,29 +83,29 @@ overflow-x:hidden;
 
 #counter{
     position: absolute;
-    top: 380px;
-    left:600px;
-    font-size: 20px;
+    top: 50%;
+    left:30%;
+    font-size: 75px;
     Color:white;
 }
 
 #thisOutput{
     color:rgba(255, 255, 255, 1);
 	opacity:1;
-    height:150px;
-    width:300px;
+    height:300px;
+    width:500px;
 	font-family:Joti One;
 	text-align:center;
-	font-size:25px;
+	font-size:40px;
     letter-spacing:0;
     position: absolute;
-    top: 420px;
-    left: 550px;
+    top: 60%;
+    left: 40%;
 }
 
 #submit{
-    width: 174px;
-    height: 37px;
+    width: 400px;
+    height: 200px;
     background: url("../images/v1_21.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -115,8 +114,8 @@ overflow-x:hidden;
     margin: 1px;
     opacity: 1;
     position: absolute;
-    top: 600px;
-    left: 534px;
+    top: 83%;
+    left: 20%;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -125,15 +124,15 @@ overflow-x:hidden;
 }
 
 #giveUp{
-    width: 174px;
-    height: 37px;
+    width: 400px;
+    height: 200px;
     background: rgba(242,129,35,1);
     padding: 9px 0px;
     margin: 1px;
     opacity: 1;
     position: absolute;
-    top: 600px;
-    left: 720px;
+    top: 83%;
+    left: 70%;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -147,7 +146,7 @@ button{
     position: absolute;
     font-family: Joti One;
     font-weight: Regular;
-    font-size: 14px;
+    font-size: 60px;
     opacity: 1;
     text-align: center;
 }
