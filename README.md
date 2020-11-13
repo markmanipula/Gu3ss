@@ -5,3 +5,5 @@ The game is simple, all you need to do is figure out the different codes (0~9) a
 (Styling is still in progress)
 
 Here's the link to Gu3ss: https://markmanipula.github.io/Gu3ss/Gu3ss%20webApp/HTML/main.html
+
+Here us the mobile version: https://markmanipula.github.io/Gu3ss/Gu3ss%20webApp/HTML/MobileVersion/mobile.html
