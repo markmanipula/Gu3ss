@@ -8,7 +8,7 @@
 h1{
     font-size: 100;
     position: absolute;
-    left: 40%;
+    left: 41%;
     top: -8%;
 } 
 
@@ -17,7 +17,7 @@ h1{
     color: rgba(255,255,255,1);
     position: absolute;
     top: 15%;
-    left: 32%;
+    left: 33%;
     font-family: Joti One;
     font-weight: Regular;
     font-size: 55px;
@@ -38,8 +38,8 @@ overflow-x:hidden;
     background: rgba(246,246,246,1);
     opacity: 1;
     position: absolute;
-    top: 220px;
-    left: 441px;
+    top:29%;
+    left: 32%;
     border: 3px solid rgba(0,0,0,1);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -54,8 +54,8 @@ overflow-x:hidden;
     background: rgba(246,246,246,1);
     opacity: 1;
     position: absolute;
-    top: 220px;
-    left: 635px;
+    top: 29%;
+    left: 44%;
     border: 3px solid rgba(0,0,0,1);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -70,8 +70,8 @@ overflow-x:hidden;
     background: rgba(246,246,246,1);
     opacity: 1;
     position: absolute;
-    top: 220px;
-    left: 830px;
+    top: 29%;
+    left: 56%;
     border: 3px solid rgba(0,0,0,1);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -83,8 +83,8 @@ overflow-x:hidden;
 
 #counter{
     position: absolute;
-    top: 380px;
-    left:600px;
+    top: 52%;
+    left:43%;
     font-size: 20px;
     Color:white;
 }
@@ -99,14 +99,14 @@ overflow-x:hidden;
 	font-size:25px;
     letter-spacing:0;
     position: absolute;
-    top: 420px;
-    left: 550px;
+    top: 58%;
+    left: 38%;
 }
 
 #submit{
-    width: 174px;
-    height: 37px;
-    background: url("../images/v1_21.png");
+    width: 190px;
+    height: 50px;
+    background:  rgba(242,129,35,1);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -114,8 +114,8 @@ overflow-x:hidden;
     margin: 1px;
     opacity: 1;
     position: absolute;
-    top: 600px;
-    left: 534px;
+    top: 82%;
+    left: 48%;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -124,15 +124,15 @@ overflow-x:hidden;
 }
 
 #giveUp{
-    width: 174px;
-    height: 37px;
-    background: rgba(242,129,35,1);
+    width: 190px;
+    height: 50px;
+    background:url("../images/v1_21.png");
     padding: 9px 0px;
     margin: 1px;
     opacity: 1;
     position: absolute;
-    top: 600px;
-    left: 720px;
+    top: 82%;
+    left: 35%;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
