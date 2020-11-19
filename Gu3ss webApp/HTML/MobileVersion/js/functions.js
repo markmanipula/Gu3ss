@@ -1,3 +1,7 @@
+function goBack() {
+    window.history.back();
+}
+
 var A = 0;
 var B = 0;
 var currentGuessCount = 0;
@@ -107,7 +111,7 @@ function youWon() {
 
 //function that keeps track of the current guess count
 function guessCounter() {
-    var guessString = "Current guess count is: ";
+    var guessString = "Current guess count: ";
     currentGuessCount++;
     document.getElementById("counter").innerHTML = guessString + currentGuessCount;
 }

@@ -1,3 +1,7 @@
+function goBack() {
+    window.history.back();
+}
+
 var A = 0;
 var B = 0;
 var currentGuessCount = 0;

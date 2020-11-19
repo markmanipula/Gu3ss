@@ -6,12 +6,20 @@
     width: 133%;
 }
 
+.fa-arrow-circle-left{
+    position: absolute;
+    font-size: 100px;
+    left: 9%;
+    top: 6%;
+}
+
 h1{
     font-size: 250px;
     position: absolute;
-    left: 35%;
-    top: -2%
-
+    left: 33%;
+    top: -2%;
+    font-family: Joti One;
+    font-weight: Regular;
 } 
 
 .titleStyle{
@@ -19,7 +27,7 @@ h1{
     color: rgba(255,255,255,1);
     position: absolute;
     top: 24%;
-    left: 32%;
+    left: 28%;
     font-family: Joti One;
     font-weight: Regular;
     font-size: 75px;
@@ -31,6 +39,8 @@ border: solid;
 height:120px;
 overflow:scroll;
 overflow-x:hidden;
+font-family: Joti One;
+font-weight: Regular;
 }
 
 #number1{
@@ -48,6 +58,9 @@ overflow-x:hidden;
     border-bottom-right-radius: 8px;
     overflow: hidden;
     font-size:120px;
+    font-family: Joti One;
+    font-weight: Regular;
+    text-align: center;
 }
 #number2{
     width: 30%;
@@ -64,6 +77,9 @@ overflow-x:hidden;
     border-bottom-right-radius: 8px;
     overflow: hidden;
     font-size:120px;
+    font-family: Joti One;
+    font-weight: Regular;
+    text-align: center;
 }
 #number3{
     width: 30%;
@@ -80,14 +96,19 @@ overflow-x:hidden;
     border-bottom-right-radius: 8px;
     overflow: hidden;
     font-size:120px;
+    font-family: Joti One;
+    font-weight: Regular;
+    text-align: center;
 }
 
 #counter{
     position: absolute;
     top: 52%;
-    left:23%;
-    font-size: 75px;
+    left:19%;
+    font-size: 70px;
     Color:white;
+    font-family: Joti One;
+    font-weight: Regular;
 }
 
 #thisOutput{
@@ -102,7 +123,10 @@ overflow-x:hidden;
     position: absolute;
     top: 62%;
     left: 40%;
+    font-family: Joti One;
+    font-weight: Regular;
 }
+
 
 #submit{
     width: 400px;
