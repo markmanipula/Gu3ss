@@ -1,3 +1,8 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
 .bodyBackground{
     background: rgba(13,55,117,1);
     opacity: 1;
@@ -17,7 +22,7 @@ h1{
     font-size: 250px;
     position: absolute;
     left: 33%;
-    top: -2%;
+    top: 3%;
     font-family: Joti One;
     font-weight: Regular;
 } 

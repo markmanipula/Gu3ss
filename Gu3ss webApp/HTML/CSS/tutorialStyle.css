@@ -1,0 +1,89 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+.fa-arrow-circle-left{
+    position: absolute;
+    font-size: 60px;
+    left: 3%;
+    top: 3%;
+}
+
+h1{
+    font-size: 100px;
+    position: absolute;
+    left: 41%;
+    text-shadow: 1px 5px 2px rgba(0.5208333134651184, 0.1041666567325592, 0.3747294247150421, 1);
+    font-family: Joti One;
+    font-weight: Regular;
+} 
+
+.bodyBackground{
+    background: rgba(13,55,117,1);
+    opacity: 1;
+    overflow: hidden; 
+    height: 100%;
+}
+
+.howTo{
+    position: absolute;
+    top: 20%;
+    left: 11%
+}
+.inputBox{
+    text-align: center;
+}
+
+#number1, #number2, #number3{
+    width: 156px;
+    height: 148px;
+    font-size: 120px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Joti One;
+    font-weight: Regular;
+}
+
+.note{
+    position:absolute;
+    top: 55%;
+    left:11%;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    font-family: Joti One;
+    font-weight: Regular;
+}
+
+
+.output{
+    position: absolute;
+    top: 62%;
+    left: 11%;
+    font-family: Joti One;
+    font-weight: Regular;
+}
+
+.example{
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    font-size: 25px;
+    font-family: Joti One;
+    font-weight: Regular;
+}
+
+#thisOutput{
+    background-color: white;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    font-family: Joti One;
+    font-weight: Regular;
+}
